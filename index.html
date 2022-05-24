@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Metaverse</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script src="three.js"></script>
+        <script src="src/index.js" type="module"></script>
+        <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
+		<form onsubmit="return false">
+			<div>
+				<label for="name">NFT Name: </label>
+				<input id="name" type="text" name="NFT Name">
+				<label for="X">Pos-X: </label>
+				<input id="x" type="number" name="X">
+				<label for="Y">Pos-Y: </label>
+				<input id="y" type="number" name="Y">
+				<label for="Z">Pos-Z: </label>
+				<input id="z" type="number" name="Z">
+				<label for="NFT_Color">NFT Color: </label>
+				<input id="color" type="color" name="NFT_Color">
+				<button id="mint">Mint an NFT</button>
+			</div>
+		</form>
+	</body>
+</html>
